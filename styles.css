@@ -1,10 +1,39 @@
 body{
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
     background-color: bisque;
-    font-size: 1.7rem;
+    font-size: 1.7rem;    
 }
 
-a{
-    margin: 10px;
+#links{
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-top: 15px;
 }
+
+.myButton{
+    margin: 10px;
+    padding: 10px;
+    background-color: rgb(255, 208, 176);
+    border-radius: 20px;
+    box-shadow: 3px 3px 10px 3px  rgb(125,125,125);
+}
+
+.myButton a{
+    text-decoration: none;
+    color: black;
+}
+
+.myButton:hover{
+    transform: translate(-1px,-1px);
+    background-color: rgb(235, 188, 156);
+    box-shadow: 4px 4px 15px 3px  rgb(125,125,125);
+}
+
+.myButton:active{
+    transform: translate(1px,1px);
+    background-color: rgb(235, 188, 156);
+    box-shadow: 2px 2px 5px 3px  rgb(125,125,125);
+}
+
 
